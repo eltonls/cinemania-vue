@@ -1,20 +1,19 @@
-<script>
-  export default {
-    data() {
-      return {
-        count: 0
-      }
-    }
-  }
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
+  name: "App",
+});
 </script>
 
 <template>
-  <button @click="count++">Bora, clica aí {{ count }}</button>
+  <div id="app">
+  </div>
 </template>
 
 <style scoped>
-  button {
-    font-weight: bold;
-    border-radius: 2em;
-  }
+button {
+  font-weight: bold;
+  border-radius: 2em;
+}
 </style>
