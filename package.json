@@ -1,0 +1,30 @@
+{
+  "name": "cinemania-vue",
+  "version": "1.0.0",
+  "description": "App to watch trailers and select your favorite movies and tv shows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cinemania-vue"
+  },
+  "keywords": [
+    "cinema",
+    "movies",
+    "film",
+    "vue",
+    "js",
+    "ts"
+  ],
+  "author": "Elton & Felipe",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.5",
+    "vue": "^3.4.27"
+  },
+  "devDependencies": {
+    "vue-tsc": "^2.0.19"
+  }
+}
